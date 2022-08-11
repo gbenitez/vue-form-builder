@@ -1,7 +1,7 @@
 <template>
     <div>
         <div :class="styles.FORM.FORM_GROUP">
-            <label>Button Type (Type Attribute)</label>
+            <label>Button Type (Type Attribute test)</label>
             <select type="text"
                     :class="styles.FORM.FORM_CONTROL"
                     v-model="control.buttonType"
