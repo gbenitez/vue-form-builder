@@ -24,7 +24,7 @@
             <!--- Double/Size --->
             <div :class="styles.ROW" class="radio-checkbox">
 
-                <div :class="[styles.COLUMNS.COL6, positionClasses]"
+                <div :class="[styles.COLUMNS.COL12, positionClasses,'form-check']"
                      v-for="listItem in control.items"
                      :key="listItem.value">
 
