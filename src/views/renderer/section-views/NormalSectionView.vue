@@ -1,6 +1,6 @@
 <template>
     <div class="normal-section">
-      <div class="mt-md-5 font-2-vh-md mt-3-vh fw-bolder font-2-vh" v-show="section.isShowHeadline">
+      <div class="mt-md-5 font-2-vh-md mt-3-vh fw-bolder font-2-vh" v-if="section.isShowHeadline" v-show="section.isShowHeadline">
         <div :class="[section.headlineAdditionalClass, 'text-primary fw-normal']" v-text="section.headline"></div>
       </div>
       <div :class="[section.subHeadlineAdditionalClass, 'font-2-vh-md fw-light font-2-vh']" v-show="section.isShowHeadline" v-text="section.subHeadline">
