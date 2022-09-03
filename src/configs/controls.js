@@ -188,7 +188,7 @@ const CONTROLS = {
             position: RADIO_CHECKBOX_POSITION.left.val, // POSITION
             theme: "bootstrap-5",
             width: '100%',
-            placeholder: $(this).data('placeholder'),
+            placeholder: 'test',
             /**
              * @var {ListItem[]} items
              */
