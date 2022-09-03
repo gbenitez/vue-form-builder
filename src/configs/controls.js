@@ -186,6 +186,9 @@ const CONTROLS = {
         configData: {
             displayMode: RADIO_CHECKBOX_STYLE.line.val, // line by line / next to each others / 2 items per line
             position: RADIO_CHECKBOX_POSITION.left.val, // POSITION
+            theme: "bootstrap-5",
+            width: '100%',
+            placeholder: $(this).data('placeholder'),
             /**
              * @var {ListItem[]} items
              */
@@ -230,7 +233,7 @@ const CONTROLS = {
         name: "Label",
         description: "Simple label text show up in your Form",
         disableValue: true,
-        
+
         configData: {
             forAttribute: null, // `for` for any control? (except the Label)
 
