@@ -15524,7 +15524,6 @@ var CONTROLS = {
       // normal - api
       multiple: false,
       // is multiple selection
-      theme: "bootstrap-5",
 
       /**
        * @var {ListItem[]} items

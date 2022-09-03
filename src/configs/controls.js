@@ -142,7 +142,7 @@ const CONTROLS = {
         configData: {
             dataMode: DROPDOWN_DATA_MODES.list.val, // normal - api
             multiple: false, // is multiple selection
-            theme: "bootstrap-5",
+
             /**
              * @var {ListItem[]} items
              */
@@ -186,7 +186,6 @@ const CONTROLS = {
         configData: {
             displayMode: RADIO_CHECKBOX_STYLE.line.val, // line by line / next to each others / 2 items per line
             position: RADIO_CHECKBOX_POSITION.left.val, // POSITION
-
             /**
              * @var {ListItem[]} items
              */
