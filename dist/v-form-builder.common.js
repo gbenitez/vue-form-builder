@@ -15524,6 +15524,7 @@ var CONTROLS = {
       // normal - api
       multiple: false,
       // is multiple selection
+      theme: "bootstrap-5",
 
       /**
        * @var {ListItem[]} items
@@ -15569,9 +15570,6 @@ var CONTROLS = {
       // line by line / next to each others / 2 items per line
       position: RADIO_CHECKBOX_POSITION.left.val,
       // POSITION
-      theme: "bootstrap-5",
-      width: '100%',
-      placeholder: $(undefined).data('placeholder'),
 
       /**
        * @var {ListItem[]} items
