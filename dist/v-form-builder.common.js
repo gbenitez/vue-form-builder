@@ -22557,7 +22557,7 @@ var STYLES = {
     INPUT_GROUP: "input-group",
     FORM_CONTROL: "form-control md-field",
     ERROR_OUTLINE: "is-invalid md-error",
-    ERROR_MESSAGE: "invalid-feedback"
+    ERROR_MESSAGE: "error invalid-feedback ps-3 aling-items-center d-flex mt-10-px-md mt-10-px"
   },
 
   /**
