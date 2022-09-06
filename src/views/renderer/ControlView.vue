@@ -26,9 +26,9 @@
             <template v-if="hasValidationError">
                 <div v-for="(mess, i) in validationErrorMessages"
                      :key="i"
-                     v-text="mess"
+
                      :class="styles.FORM.ERROR_MESSAGE"
-                ></div>
+                ><i class="fa-solid fa-circle-exclamation me-2 font-2-50-vh-md font-2-50-vh  mt-n1"></i><span v-html='mess'></span></div>
             </template>
         </div>
     </div>
