@@ -27816,7 +27816,7 @@ function minRule(fieldValue, constraintValue) {
 
   if (typeof fieldValue === 'number') {
     var num = fieldValue;
-    return num.toString() >= minVal;
+    return num.toString().length >= minVal;
   } // lastly, string
 
 
