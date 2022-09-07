@@ -27811,10 +27811,10 @@ function minRule(fieldValue, constraintValue) {
   } // second, number
   // second, number
 
-
-  if (typeof fieldValue === 'number') {
-    return fieldValue >= minVal;
-  } // lastly, string
+  /*if (typeof fieldValue === 'number') {
+      return fieldValue >= minVal
+  }*/
+  // lastly, string
 
 
   return fieldValue.length >= minVal;
