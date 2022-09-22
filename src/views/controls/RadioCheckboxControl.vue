@@ -28,7 +28,8 @@
                      v-for="listItem in control.items"
                      :key="listItem.value">
 
-                    <label>
+                    <label class="font-2-vh-md fw-light font-2-vh ms-3">{{listItem.text}}
+                    </label>
                         <!--- Input things are same, hmm - TODO: DRY ?? --->
                         <input :type="control.type"
                                :class="control.additionalFieldClass"
@@ -37,8 +38,7 @@
                                v-model="valueContainer[controlName]"
                         >
 
-                        {{listItem.text}}
-                    </label>
+
                 </div>
 
             </div>
