@@ -18,7 +18,7 @@ export default function maxRule(fieldValue, constraintValue) {
     // second, number
     if (typeof fieldValue === 'number') {
         const num = fieldValue;
-        return num.toString().length >= minVal
+        return num.toString().length <= minVal
         //return fieldValue <= minVal
     }
 

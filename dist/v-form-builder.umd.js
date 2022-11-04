@@ -27844,7 +27844,7 @@ function maxRule(fieldValue, constraintValue) {
 
   if (typeof fieldValue === 'number') {
     var num = fieldValue;
-    return num.toString().length >= minVal; //return fieldValue <= minVal
+    return num.toString().length <= minVal; //return fieldValue <= minVal
   } // lastly, string
 
 
