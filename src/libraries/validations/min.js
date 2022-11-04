@@ -18,9 +18,9 @@ export default function minRule(fieldValue, constraintValue) {
     // second, number
     // second, number
     if (typeof fieldValue === 'number') {
-        //const num = fieldValue;
-        //return num.toString().length >= minVal
-        return fieldValue >= minVal
+        const num = fieldValue;
+        return num.toString().length >= minVal
+        //return fieldValue >= minVal
     }
 
     // lastly, string

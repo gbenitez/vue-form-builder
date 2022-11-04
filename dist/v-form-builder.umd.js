@@ -27794,6 +27794,8 @@ function requiredRule(fieldValue) {
   return true;
 }
 // CONCATENATED MODULE: ./src/libraries/validations/min.js
+
+
 /**
  * Check min value for a field
  * - Text => min length
@@ -27813,15 +27815,16 @@ function minRule(fieldValue, constraintValue) {
 
 
   if (typeof fieldValue === 'number') {
-    //const num = fieldValue;
-    //return num.toString().length >= minVal
-    return fieldValue >= minVal;
+    var num = fieldValue;
+    return num.toString().length >= minVal; //return fieldValue >= minVal
   } // lastly, string
 
 
   return fieldValue.length >= minVal;
 }
 // CONCATENATED MODULE: ./src/libraries/validations/max.js
+
+
 /**
  * Check max value for a field
  * - Text => max length
@@ -27840,7 +27843,8 @@ function maxRule(fieldValue, constraintValue) {
 
 
   if (typeof fieldValue === 'number') {
-    return fieldValue <= minVal;
+    var num = fieldValue;
+    return num.toString().length >= minVal; //return fieldValue <= minVal
   } // lastly, string
 
 
